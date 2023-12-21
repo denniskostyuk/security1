@@ -17,10 +17,10 @@
 - Запущены службы: ftp, ssh, telnet, smtp, domain, http, rpcbind, netbios-ssn, microsoft-ds, exec, login, shell, rmiregistry, ingreslock, nfs, ccproxy-ftp, mysql, postgresql, vnc, X11, irc, ajp13:
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-11.png)
 
-- по результатам сканирования на определение версий ПО были найдены уязвимости:
-https://www.exploit-db.com/exploits/30604
-https://www.exploit-db.com/exploits/17491
-https://www.exploit-db.com/exploits/30020
+- по результатам сканирования на определение версий ПО были найдены уязвимости:  
+https://www.exploit-db.com/exploits/30604  
+https://www.exploit-db.com/exploits/17491  
+https://www.exploit-db.com/exploits/30020  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-12.png)
 
 
