@@ -32,3 +32,13 @@ https://www.exploit-db.com/exploits/30020
 Приведите ответ в свободной форме.  
 
 ## Ответ 2
+
+На входе:
+ip-адрес Metasploitable = 192.168.0.137
+ip-адрес хоста с NMAP = 192.168.0.182
+
+#### Режим SYN.
+Команда: sudo nmap -sS 192.168.0.137  
+Nmap посылает SYN-пакет.  
+Если порт закрыт, то Metasploitable разрывает соединение (например, порт 1322):
+![image](https://github.com/denniskostyuk/security1/blob/main/task-21.png)
