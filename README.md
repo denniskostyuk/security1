@@ -23,14 +23,12 @@ https://www.exploit-db.com/exploits/17491
 https://www.exploit-db.com/exploits/30020  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-12.png)
 
+# Задание 2
+Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.  
+Запишите сеансы сканирования в Wireshark.  
+Ответьте на следующие вопросы:  
+- Чем отличаются эти режимы сканирования с точки зрения сетевого трафика?  
+- Как отвечает сервер?  
+Приведите ответ в свободной форме.  
 
-#### Требования к результату 
-
-Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
-
-Шаблон Zadanie 1:
-   ![Скрин1](https://github.com/denniskostyuk/zabbix-2/blob/main/task-1_template.png)
-
-А также итемы для шаблона Zadanie 1:
-   ![Скрин2](https://github.com/denniskostyuk/zabbix-2/blob/main/task-1_item1.png)
-   ![Скрин3](https://github.com/denniskostyuk/zabbix-2/blob/main/task-1_item2.png)
+## Ответ 2
