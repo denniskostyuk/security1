@@ -34,8 +34,8 @@ https://www.exploit-db.com/exploits/30020
 ## Ответ 2
 
 На входе:
-ip-адрес Metasploitable = 192.168.0.137
-ip-адрес хоста с NMAP = 192.168.0.182
+ip-адрес Metasploitable = 192.168.0.137  
+ip-адрес хоста с NMAP = 192.168.0.182  
 
 #### Режим SYN.
 Команда: sudo nmap -sS 192.168.0.137  
