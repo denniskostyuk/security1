@@ -37,12 +37,23 @@ https://www.exploit-db.com/exploits/30020
 ip-адрес Metasploitable = 192.168.0.137  
 ip-адрес хоста с NMAP = 192.168.0.182  
 
-#### Режим SYN.
-Команда: sudo nmap -sS 192.168.0.137  
-Nmap посылает SYN-пакет.  
+#### Режим SYN (-sS).
+Nmap отправляет пакет с установленным флагом SYN.  
 
-Если порт закрыт, то Metasploitable "разрывает" соединение (например, порт 1322):
+Если порт закрыт (например, порт 1322), то Metasploitable "сбрасывает" попытку соединения (отправляет RST-пакет):  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-21.png)  
 
-Если порт открыт (например, порт 22), то Metasploitable отвечает готовностью установить соединение (SYN-ASK), после чего NMAP "разрывает" соединение :
+Если порт открыт (например, порт 22), то Metasploitable отвечает готовностью установить соединение (SYN-ASK), после чего NMAP "сбрасывает" попытку соединения:  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-22.png)
+
+#### Режим FIN (-sF)  
+NMAP отправляет пакет с установленным флагом FIN, который используется для корректного закрытия соединения. Следовательно, цель должна ответить RST для закрытых портов, в соответствии с RFC.
+
+Закрытые порты (например, порт 1322):  
+![image](https://github.com/denniskostyuk/security1/blob/main/task-23.png)
+
+Открытые порты (например, порт 22):  
+![image](https://github.com/denniskostyuk/security1/blob/main/task-24.png)
+
+
+
