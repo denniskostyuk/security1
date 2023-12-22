@@ -38,7 +38,7 @@ ip-адрес Metasploitable = 192.168.0.137
 ip-адрес хоста с NMAP = 192.168.0.182  
 
 #### Режим SYN (-sS).
-Nmap отправляет пакет с установленным флагом SYN.  
+NMAP отправляет пакет с установленным флагом SYN.  
 
 Если порт закрыт (например, порт 1322), то Metasploitable "сбрасывает" попытку соединения (отправляет RST-пакет):  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-21.png)  
@@ -64,3 +64,12 @@ NMAP отправляет пакет с установленным флагом 
 
 Открытые порты (например, порт 22):  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-26.png)
+
+#### Режим UDP (-sU)
+NMAP отправляет UDP-пакет без данных. Если в ответ было получено ICMP-сообщение "порт недоступен", это означает, что порт закрыт. Иначе предполагается, что сканируемый порт открыт.
+
+Закрытые порты (например, порт 25003):  
+![image](https://github.com/denniskostyuk/security1/blob/main/task-27.png)
+
+Открытые порты (например, порт 22):  
+![image](https://github.com/denniskostyuk/security1/blob/main/task-28.png)
