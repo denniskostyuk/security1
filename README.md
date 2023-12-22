@@ -55,5 +55,12 @@ NMAP отправляет пакет с установленным флагом 
 Открытые порты (например, порт 22):  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-24.png)
 
+#### Режим Xmas (-sX)
+Сканирование TCP Xmas похоже на предыдущий метод, отличается тем, что использует TCP-пакеты с установленными флагами PSH, URG и FIN.  
+Как и в режиме сканирования FIN, этот тип также ожидает пакеты RST для закрытых портов в соответствии с RFC.
 
+Закрытые порты (например, порт 1322):  
+![image](https://github.com/denniskostyuk/security1/blob/main/task-25.png)
 
+Открытые порты (например, порт 22):  
+![image](https://github.com/denniskostyuk/security1/blob/main/task-26.png)
