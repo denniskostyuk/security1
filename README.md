@@ -24,9 +24,9 @@ https://www.exploit-db.com/exploits/17491
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-12_2.png)  
 https://www.exploit-db.com/exploits/30020  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-12_3.png)  
-https://www.exploit-db.com/exploits/6122
-![image](https://github.com/denniskostyuk/security1/blob/main/task-12_4.png)
-сканирование на определение версий ПО:
+https://www.exploit-db.com/exploits/6122  
+![image](https://github.com/denniskostyuk/security1/blob/main/task-12_4.png)  
+сканирование на определение версий ПО:  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-12.png)
 
 # Задание 2
