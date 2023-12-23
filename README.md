@@ -20,7 +20,7 @@
 - по результатам сканирования на определение версий ПО были найдены уязвимости:  
 https://www.exploit-db.com/exploits/30604  
 https://www.exploit-db.com/exploits/17491  
-https://www.exploit-db.com/exploits/30020
+https://www.exploit-db.com/exploits/30020  
 https://www.exploit-db.com/exploits/6122  
 ![image](https://github.com/denniskostyuk/security1/blob/main/task-12.png)
 
